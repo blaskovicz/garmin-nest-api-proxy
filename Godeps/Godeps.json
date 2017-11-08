@@ -1,0 +1,32 @@
+{
+	"ImportPath": "github.com/blaskovicz/garmin-nest-api-proxy",
+	"GoVersion": "go1.9",
+	"GodepVersion": "v79",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/gorilla/mux",
+			"Comment": "v1.5.0-1-g3f19343",
+			"Rev": "3f19343c7d9ce75569b952758bd236af94956061"
+		},
+		{
+			"ImportPath": "github.com/sirupsen/logrus",
+			"Comment": "v1.0.3-11-g89742ae",
+			"Rev": "89742aefa4b206dcf400792f3bd35b542998eb3b"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/ssh/terminal",
+			"Rev": "9ba3862cf6a5452ae579de98f9364dd2e544844c"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "a5054c7c1385fd50d9394475365355a87a7873ec"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/windows",
+			"Rev": "a5054c7c1385fd50d9394475365355a87a7873ec"
+		}
+	]
+}
