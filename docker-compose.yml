@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  web:
+    image: 127.0.0.1:5000/garmin-nest-api-proxy
+    build: .
+    ports:
+      - "4091:4091"
